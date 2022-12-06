@@ -19,5 +19,5 @@ To begin, you must generate a Bearer token to send a request to the /authenticat
 - ` mvn clean `
 - ` mvn install`
 ## Run
-mvn spring-boot:run
+- `mvn spring-boot:run`
 
