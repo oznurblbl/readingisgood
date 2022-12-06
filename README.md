@@ -16,8 +16,8 @@ To begin, you must generate a Bearer token to send a request to the /authenticat
 - Gson
 - Lombok
 ## Compile
-`mvn clean
-mvn install`
+`- mvn clean
+- mvn install`
 ## Run
 mvn spring-boot:run
 
