@@ -1,6 +1,6 @@
-# readingisgood
-authentication replaced with jwt based authentication
 # READINGISGOOD
+authentication replaced with jwt based authentication
+
 It is a backend service developed by using SpringBoot and MySQL. It runs on an embedded Tomcat via port 8181.
 To begin, you must generate a Bearer token to send a request to the /authenticate endpoint, and then use that token to send requests to other controller endpoints. Otherwise, an UnAuthorized exception is thrown.
 ## Controller
@@ -16,8 +16,8 @@ To begin, you must generate a Bearer token to send a request to the /authenticat
 - Gson
 - Lombok
 ## Compile
-mvn clean
-mvn install
+“`mvn clean “`
+“`mvn install“`
 ## Run
 mvn spring-boot:run
 
